@@ -27,14 +27,14 @@ $(document).ready(function(){
 
     // typing animation script
     var  typed = new Typed(".typing",{
-        strings: ["FrontEnd Programmer", "Designer", "SMM Manager", "Frelancer"],
+        strings: ["Flutter Developer", "SMM Manager", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60, 
         loop: true
     })
 
     var  typed = new Typed(".typing-2",{
-        strings: ["FrontEnd Programmer", "Designer", "SMM Manager", "Frelancer"],
+        strings: ["Flutter Developer", "SMM Manager", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60, 
         loop: true
