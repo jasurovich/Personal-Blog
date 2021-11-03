@@ -583,7 +583,7 @@ footer a:hover{
             height: 350px;
             width: 350px;
         }
-        .left img{
+        .column img{
             height: auto;
             width: 1000;
         }
@@ -593,7 +593,7 @@ footer a:hover{
         .max-width{
             padding: 0 50px;
            }
-           .left img{
+           .column img{
             height: auto;
             width: 990;
         }
@@ -601,7 +601,7 @@ footer a:hover{
 
 
 @media (max-width: 947px){
-    .left img{
+    .column img{
         height: auto;
         width: 940;
     }
@@ -678,7 +678,7 @@ footer a:hover{
 }
 
 @media (max-width: 690px){
-    .left img{
+    .column img{
         height: auto;
         width: 690;
     }
@@ -704,7 +704,7 @@ footer a:hover{
 }
 
 @media (max-width: 500px){
-    .left img{
+    .column img{
         height: auto;
         width: 500;
     }
