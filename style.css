@@ -582,7 +582,10 @@ footer a:hover{
         .about .about-content .left img{
             height: 350px;
             width: 350px;
-            
+        }
+        .left img{
+            height: auto;
+            width: 1000;
         }
     }
 
@@ -590,10 +593,18 @@ footer a:hover{
         .max-width{
             padding: 0 50px;
            }
+           .left img{
+            height: auto;
+            width: 990;
+        }
     }
 
 
 @media (max-width: 947px){
+    .left img{
+        height: auto;
+        width: 940;
+    }
     
     .menu-btn{
         display: block;
@@ -667,6 +678,10 @@ footer a:hover{
 }
 
 @media (max-width: 690px){
+    .left img{
+        height: auto;
+        width: 690;
+    }
     .max-width{
         padding: 0 23px;
        }
@@ -689,6 +704,10 @@ footer a:hover{
 }
 
 @media (max-width: 500px){
+    .left img{
+        height: auto;
+        width: 500;
+    }
     .home .home-content .text-2{
         font-size: 50px;
        
