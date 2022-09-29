@@ -107,7 +107,7 @@ html{
 
 .home{
     display: flex;
-    background: url("images/img1.png") no-repeat center;
+    background: url("images/img1.png") no-repeat center center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
