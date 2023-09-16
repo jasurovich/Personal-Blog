@@ -10,11 +10,11 @@
 <h3> I'm Software Engineer from Uzbekistan. </h3>
 <br>
 <br>
-- 🔋  I’m currently learning <b>Flutter</b> .<br>
+- 🔋  I’m currently working <b>Flutter</b> .<br>
 - 💬 Ask me about anything, I am happy to help<br>
 - 📫 How to reach me: samandarabduhamitov@gmail.com<br>
 - 😄 My website: https://samandarblog.netlify.app/<br>
-- ⚡️ Fun fact: I use linux🐧
+- ⚡️ Fun fact: I passitane about flutter🐧
 <br>
 <br>
 <hr>
