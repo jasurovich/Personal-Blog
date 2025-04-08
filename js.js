@@ -27,7 +27,7 @@ $(document).ready(function(){
 
     // typing animation script
     var  typed = new Typed(".typing",{
-        strings: ["Flutter Developer", "SMM Manager", "Freelancer"],
+        strings: ["Mijojlarga mobil telefoningizdan\nxabar yubora olasiz", "Qulay foydalanasiz", "Ishlatishingiz oson"],
         typeSpeed: 100,
         backSpeed: 60, 
         loop: true

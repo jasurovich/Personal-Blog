@@ -25,7 +25,7 @@ html{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #0b0a0b;
 }
 .navbar .max-width{
     display: flex;
@@ -40,7 +40,7 @@ html{
 }
 
 .navbar .logo a span{
-    color: crimson;
+    color: #07e1d5;
     transition: all 0.3s ease;
 
 }
@@ -64,9 +64,7 @@ html{
     transition: color 0.3s ease ;
 }
 
-.navbar .menu li a:hover{
-    color: crimson;
-}
+
 
 .navbar.sticky .menu li a:hover{
     color: gold;
@@ -83,7 +81,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #07e1d5;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -107,17 +105,42 @@ html{
 
 .home{
     display: flex;
-    background: url("images/img1.png") no-repeat center center;
+    /* background: url("images/sms.png") no-repeat center center; */
     height: 100vh;
     width: 100%;
     max-width: 100%;
     color: #fff;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
+    background-color: #0b0a0b;
 }
+
+.home .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    /* background-color: aqua; */
+}
+.max-width .home-content {
+    width: 70%;
+}
+
+.sms img {
+    width: 100%;
+    height: 100%;
+}
+
 .home .max-width{
-    margin: auto 0 auto 60px;
+ margin: auto 0 auto 60px;
+ display: flex;
+ justify-content: space-between;
+ gap: 2rem;
     
+}
+
+.max-width .sms {
+    width: 30%;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -143,17 +166,17 @@ html{
 
 .home .home-content a{
     display: inline-block;
-    background-color: crimson;
+    background-color: #07e1d5;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #07e1d5;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #07e1d5;
     background: none;
 }
 
@@ -197,7 +220,7 @@ section .title:after{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #07e1d5;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -210,7 +233,7 @@ section .title:after{
 
 
 .about .title:after{
-    content: "Who I Am";
+    content: "Biz kimmiz?";
 }
 
 .about .about-content .left{
@@ -231,26 +254,26 @@ section .title:after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #07e1d5;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background-color: crimson;
+    background-color: #07e1d5;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #07e1d5;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #07e1d5;
     background: none;
 }
 
@@ -267,7 +290,7 @@ section .title:after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "What I Provide";
+    content: "Biz sizga qanday yordam beramiz";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -279,7 +302,7 @@ section .title:after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #07e1d5;
 }
 .services .serv-content .card .box{
     transform: all 0.3s ease;
@@ -289,7 +312,7 @@ section .title:after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #07e1d5;
     transform: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -305,7 +328,7 @@ section .title:after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "What I Know";
+    content: "Bizda qanday mahoratlar bor";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -323,18 +346,18 @@ section .title:after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background-color: crimson;
+    background-color: #07e1d5;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #07e1d5;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: #07e1d5;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -365,38 +388,45 @@ section .title:after{
     height: 100%;
     left:  0;
     top:  0;
-    background: crimson;
+    background: #07e1d5;
 }
 
 .skills-content .right .html:before{
-    width: 40%;    
+    width: 90%;    
 }
 .skills-content .right .css:before{
-    width: 30%;    
+    width: 80%;    
 }
 .skills-content .right .js:before{
-    width: 15%;    
+    width: 90%;    
 }
 .skills-content .right .dart:before{
     width: 90%;    
 }
 .skills-content .right .flutter:before{
-    width: 80%;    
+    width: 100%;    
 }
 
 /* teams section styling */
 .teams  .title::after{
-    content: "Who With Me";
+    content: "Qanday tariflar mavjud";
+}
+
+.teams .carousel{
+    display: flex;
 }
 .teams .carousel .card{
+    width: 33%;
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
+    margin: 10px;
     text-align: center;
     transition: all 0.3s ease;
+    
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: #07e1d5;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -418,11 +448,24 @@ section .title:after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #07e1d5;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
+}
+
+.teams .carousel .card .price{
+    font-size: 25px;
+    font-weight: 500;
+    color: #07e1d5;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card:hover .price{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 .owl-dots{
     text-align: center;
@@ -434,7 +477,7 @@ section .title:after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #07e1d5!important;
     transition: all 0.3s ease;
 
 }
@@ -444,13 +487,13 @@ section .title:after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: #07e1d5!important;
 }
 
 /* contact section styling */
 
 .contact .title::after{
-    content: "Get In Touch";
+    content: "Aloqaga chiqing";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -478,7 +521,7 @@ section .title:after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #07e1d5;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -529,8 +572,8 @@ section .title:after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #07e1d5;
+    background: #07e1d5;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -539,7 +582,7 @@ section .title:after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: crimson;
+    color: #07e1d5;
     background: none;
 }
 /* footer section styling */
@@ -560,7 +603,7 @@ footer a{
 }
 
 footer a:hover{
-    color: crimson;
+    color: #07e1d5;
 }
 
 
